@@ -1,0 +1,85 @@
+/* import */
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f2c94c;
+  --dark-gray: #333333;
+}
+body {
+  font-family: "Niconne", cursive;
+  color: var(--dark-gray);
+}
+
+.heading {
+  background-color: var(--primary-color);
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.section {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Niconne", cursive;
+}
+
+.txtInput {
+  display: block;
+  width: 90%;
+  min-height: 20vh;
+  font-size: 1.5rem;
+  margin: 2rem 0rem;
+  padding: 1rem;
+  font-family: inherit;
+  border: 2px solid var(--dark-gray);
+}
+.button {
+  padding: 1rem;
+  font-family: inherit;
+  margin: 1rem 0rem;
+  background-color: var(--primary-color);
+  color: var(--dark-gray);
+  border: none;
+  font-size: 1rem;
+}
+
+.sample {
+  margin: 1rem 0rem;
+  font-size: 1rem;
+}
+.output {
+  min-height: 20vh;
+  display: block;
+  width: 90%;
+  min-height: 20vh;
+  font-size: 1.5rem;
+  margin: 2rem 0rem;
+  padding: 1rem;
+  border: 2px solid var(--dark-gray);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+}
+
+.footer-about {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.footer-para {
+  font-size: 1rem;
+  padding: 5px;
+}
